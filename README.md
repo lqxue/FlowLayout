@@ -145,3 +145,6 @@ FlowLayout,流式布局,这个概念在移动端或者前端开发中很常见,�
 
 当测量之后,这个测量方法不止调用一次,经过多次的测量后得到了每个view的具体的宽高,然后在onLayout中进行布局,根据场景计算出每个view的left/top/right/Bottom,调用子view的layout,此处不需要调用流式布局的layout,因为每个view都布置好了,那流失布局作为父viewGroup的布置也就结束了,类似于装修,先测量,拿到测量后的数据布置每个房间,最后房子也就是流式布局就装修好了,至于每个view怎样测量怎样绘制,那就要看是使用的自定义view还是系统view了
 
+## 最后
+
+![](https://raw.githubusercontent.com/lqxue/picture_list/master/image/20200315093045.png)
